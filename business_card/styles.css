@@ -1,0 +1,25 @@
+body {
+    margin: 20px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.avatar {
+    width: 150px;  
+
+}
+.card {
+    background: #ddebf8; 
+    border-bottom: 6px solid #d8cefe; 
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;   
+    justify-content: space-around;
+    text-align: center;
+    color: #2b2839;
+}
+.border-blue {
+    border: 1px dotted blue;
+}
+h3:hover{
+    background-color: pink;
+}
