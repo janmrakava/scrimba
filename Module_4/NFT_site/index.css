@@ -1,0 +1,97 @@
+/*Main structure*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2b283a;
+    margin: 0 ;
+}   
+header, section, footer{
+    padding: 45px 0;
+}
+header, .second{
+    background-color: #5f29a3;
+    
+}
+
+footer{
+    text-align: center;
+
+    color: #5f29a3;
+}
+/*Classes */
+.btn{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-dark{
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.btn-mid{
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-light{
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.purple-sneakers{
+    width: 100%;
+}
+.container{
+    width: 620px;
+    margin: 0 auto;
+ 
+}
+.second{
+    color: white;
+}
+.section-two-img{
+    width: 300px;
+    border-radius: 4.6px;
+
+}
+.img-container{
+    display: flex;
+    justify-content: space-between;
+}
+/*Elements */
+h1{
+    font-size: 36px;
+    color: whitesmoke;
+}
+h2 {
+    margin-top: 0;
+}
+h3{   
+    font-size: 20px;
+    color: #d0aaff;
+}
+h1, h3 {
+    margin: 0;
+}
+a{
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+p {
+    line-height: 23px;
+}
+/*PSeudo selectors*/
+a:hover, :active{
+    color: #d4b44c;   
+}
+
