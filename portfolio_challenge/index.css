@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+h1 span,
+h2 span {
+    font-weight: 900;
+    display: block;
+    color: #99D930;
+}
+a{
+    color: #99D930;
+    font-weight: 900;
+}
+a:hover,
+a:focus{
+    color: #131313;
+}
+/* Typographhy */
+h1{
+    font-size: 60px;  
+    margin-top: 0;  
+}
+h2{
+    font-size: 42px;
+    margin-top: 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+h1, 
+h2 {
+    font-weight: 300;
+    
+}
+p{
+    margin-bottom: 0;
+}
+header,
+section{
+    padding: 100px 0;   
+}
+header{
+    background-color: #D7D7D7;
+}
+
+/* Classes */
+.jmeno,
+.date{
+    color:#99D930;
+    font-weight: 900;
+}
+.name{
+    font-size: 80px;
+}
+.subject{
+    font-size: 60px;
+}
+.small{
+    font-size: 16px;
+    margin-top: 4px;
+    
+}
+.container{
+    width: 570px;  
+    margin: 0 auto; 
+}
+
+.black-el{
+    background-color: #252525;
+    color: #FFF;
+}
+.button-el{
+    background-color: #99D930;
+    color: #252525;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+}
+.button-el:hover,
+.button-el:focus{
+    background-color: #252525;
+    color: #FFF;
+}
