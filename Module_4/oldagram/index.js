@@ -1,6 +1,8 @@
 const mainPost = document.getElementById("main-post")
 
 
+
+
 const posts = [
     {
         name: "Vincent van Gogh",
@@ -37,26 +39,40 @@ function render(arr){
     for (let i = 0; i < arr.length; i++){
         post += 
         `
-        <section>
+        <section id=${i}>
         <div class="container">          
                 <img id="avatar" src=${arr[i].avatar}>
-                <h4 id="name">${arr[i].name}</h4>
-                <p id="place">${arr[i].location}</p>
-                <img id="post" src=${arr[i].post}>
+                <p4 id="name-place"><span class="name">${arr[i].name}</span> ${arr[i].location}</p4>                
+                <img id="post" src=${arr[i].post} onclick="like()">
                 <img id="heart" src="images/icon-heart.png"> 
                 <img id="comment" src="images/icon-comment.png">
                 <img id="dm" src="images/icon-dm.png">
-                <p id="likes">${arr[i].likes}</p>
-                <p id="username">${arr[i].username}</p>
-                <p id="comment">${arr[i].comment}</p>
+                <p id="likes"><span class="bold-weight"><span id="like">${arr[i].likes}</span> likes</span></p>
+                <p id="user-comment"><span class="bold-weight">${arr[i].username}</span> ${arr[i].comment} </p>               
             </div>
             </section>
-        
+            <div class="container">
+            <div class="space"></div>
+            </div>
         ` 
     }
     mainPost.innerHTML = post
 }
 
+
 render(posts)
+
+const likesEl = document.getElementById("like")
+
+
+function like(){
+    let numberLikes = likesEl.textContent
+    numberLikes=Number(numberLikes)+1
+    likesEl.textContent = numberLikes
+
+    
+    
+}
+
 
 
